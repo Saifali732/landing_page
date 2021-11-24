@@ -1,1 +1,2 @@
 # landing_page
+This is a project to create a landing page design that could be used for some webpage. This page is being made with just html and css, with an emphasis on flexbox to achieve the proper placement of the different elements on the page.

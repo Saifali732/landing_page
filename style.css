@@ -1,11 +1,14 @@
+body {
+    font-family: sans-serif;
+}
 .header, .footer{
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 40px;
+    padding: 20px;
 }
-
+/* navbar info */
 .navbar {
     display: flex;
     align-items: center;
@@ -25,7 +28,7 @@ a, .secondary {
     color: #E5E7EB;
     font-size: 18px;
 }
-
+/* content under header */
 .content {
     display: flex;
 
@@ -42,7 +45,7 @@ a, .secondary {
     font-weight: bolder;
 }
 
-button {
+.content button {
     background-color: #3882F6;
     padding: 8px 16px;
     border-radius: 8px;
@@ -53,11 +56,17 @@ button {
     width: 400px;
 }
 
+/* panel with four images */
+
+.info {
+    padding: 100px;
+}
 .title {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2936;
+    margin-bottom: 50px;
 }
 
 .panels {
@@ -81,6 +90,56 @@ button {
     font-size: 40px;
     border-radius: 25px;
 }
+
+/* quotation section of page */
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:  100px 150px;
+    color: #1f2937;
+}
+
+.text { 
+    font-size: 36px;
+    font-style: italic;
+    font-weight: ligher;
+}
+
+.credit {
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* sign up section */
+
+.sign {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin: 50px auto;
+    width: 900px;
+    border-radius: 10px;
+    gap: 100px;
+    color: #E5E7EB;
+}
+
+
+.sign button {
+    display: flex;
+    height: fit-content;
+    align-self: center;
+    background-color: #3882F6;
+    padding: 8px 25px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+}
+/* footer section */
 .footer {
     display: flex;
     justify-content: center;

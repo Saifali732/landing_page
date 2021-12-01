@@ -1,18 +1,20 @@
 body {
     font-family: sans-serif;
+    margin: 0;
 }
-.header, .footer{
+.header {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 20px;
+    padding: 0px 100px 100px 100px;
 }
 /* navbar info */
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -31,29 +33,37 @@ a, .secondary {
 /* content under header */
 .content {
     display: flex;
-
     align-items: center;
-    justify-content: center;
-    gap: 32px;
+    justify-content: space-between;
+    gap: 75px;
+ 
 }
 
 .left {
     max-width: 900px;
+    align-self: flex-start;
+    justify-content: flex-start;
 }
 .main {
     font-size: 48px;
     font-weight: bolder;
 }
 
+
 .content button {
     background-color: #3882F6;
-    padding: 8px 16px;
+    padding: 8px 20px;
     border-radius: 8px;
-    
+    border: none;
+    color: #E5E7EB;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .content img {
     width: 400px;
+    height: auto;
+    
 }
 
 /* panel with four images */
@@ -79,6 +89,10 @@ a, .secondary {
     width: 150px;
 }
 
+.panel p {
+    text-align: center;
+}
+
 .symbol {
     width: 150px;
     height: 150px;
@@ -100,6 +114,8 @@ a, .secondary {
     align-items: center;
     padding:  100px 150px;
     color: #1f2937;
+    margin: 0;
+    border: none;
 }
 
 .text { 
@@ -112,6 +128,7 @@ a, .secondary {
     align-self: flex-end;
     font-size: 25px;
     font-weight: bold;
+    margin: 15px;
 }
 
 /* sign up section */
@@ -122,10 +139,11 @@ a, .secondary {
     justify-content: center;
     justify-content: center;
     margin: 50px auto;
-    width: 900px;
+    max-width: 800px;
     border-radius: 10px;
     gap: 100px;
     color: #E5E7EB;
+    padding: 20px;
 }
 
 
@@ -137,11 +155,25 @@ a, .secondary {
     padding: 8px 25px;
     border-radius: 8px;
     color: #E5E7EB;
+    font-weight: bold;
     border: 1px solid #E5E7EB;
+}
+
+.signtext p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.signtext p:nth-child(2) {
+    font-size: 15px;
+    margin: 0;
 }
 /* footer section */
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 25px;
 }
